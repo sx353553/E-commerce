@@ -145,3 +145,13 @@ button:active {
 HIGHLIGHTS 
 
 */
+
+.highlight__wrapper {
+    display: flex;
+    
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc (100% / 3);
+}
