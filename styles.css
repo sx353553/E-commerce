@@ -71,7 +71,7 @@ li {
 }
 
 #landing {
-    background-color: rgba (115, 66, 214, 0.1);
+    background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
@@ -116,7 +116,7 @@ button {
 }
 
 button:active {
-    transform: translateY (1px); 
+    transform: translateY(1px); 
 }
 
 .btn {
@@ -166,7 +166,7 @@ HIGHLIGHTS
     z-index: 1;
     background-size: color;
     background-repeat: no-repeat;
-    transform: translateY (-100%);
+    transform: translateY(-100%);
 }
 .highlight__wrapper {
     display: flex;
