@@ -151,11 +151,27 @@ HIGHLIGHTS
 
 */
 
+#highlights {
+    position: relative;
+}
+#highlights:before {
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+     display: flex;
+    width: 101vw;
+    height: 12vw;
+    top: 1px;
+    left: 0;
+    z-index: 1;
+    background-size: color;
+    background-repeat: no-repeat;
+    transform: translateY (-100%);
+}
 .highlight__wrapper {
     display: flex;
-    
 }
-
+   
 .highlight {
     padding: 0 24px;
     width: calc (100% / 3);
