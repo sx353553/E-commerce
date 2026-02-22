@@ -243,4 +243,15 @@ Features
 
 .book__img {
     max-height: 380px;
+    transition: all 300ms ease;
+}
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
+
+.book:hover .book__img {
+    transform: scale(1.03);
 }
