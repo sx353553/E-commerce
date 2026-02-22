@@ -173,7 +173,7 @@ HIGHLIGHTS
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(-100%);
+
 }
   
 #highlights:before {
@@ -182,18 +182,8 @@ HIGHLIGHTS
 }
 
 #highlights:after {
-    background: url('assets/wave.svg');
-    content: "";
-    position: absolute;
-     display: flex;
-    width: 101vw;
-    height: 12vw;
-    bottom: 1px;
-    left: 0;
-    z-index: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translateY(100%) rotate(180deg); 
+    transform: translateY(100%) rotate(180deg);
+    bottom: 1px; 
 }
 .highlight__wrapper {
     display: flex;
@@ -240,4 +230,17 @@ Features
 #features {
     height: 1000px;
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+.books {
+    display: flex;
+}
+
+.books {
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img {
+    max-height: 380px;
 }
