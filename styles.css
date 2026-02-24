@@ -234,6 +234,9 @@ Features
 
 .books {
     display: flex;
+    flex-wrap: wrap;
+     
+
 }
 
 .book {
