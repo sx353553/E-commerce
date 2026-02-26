@@ -93,6 +93,7 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;
+    display: none;
 }
 
 .menu__backdrop {
@@ -106,6 +107,34 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.menu__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+    padding: 32px 0;
+}
+
+.menu__link  {
+  font-size: 40px;
+    color: white;
 }
 
 .btn__menu--close {
@@ -380,6 +409,18 @@ EXPLORE
     padding: 0 8px;
  }
 
+ /*SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+ 
+
+ @media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
+}
+
+.btn__menu {
+    display: block;
+}
  
 
 
